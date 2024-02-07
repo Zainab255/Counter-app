@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(3, 141, 141);
+  margin: 0; 
+}
+
+.card1 {
+  text-align: center;
+  position: absolute;
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%); 
+  max-width: 80%; 
+  padding: 20px; 
+  border-radius: 10px; 
+}
+
+.card1 .btn {
+  border: 1px solid;
+  margin: 10px;
+}
+
+.card1 h4 {
+  font-size: 50px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .card1 {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card1 {
+    max-width: 95%;
+  }
+}
